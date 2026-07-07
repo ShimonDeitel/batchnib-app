@@ -1,0 +1,28 @@
+{
+  "identifier" : "BatchNib",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "penmakinglog_pro",
+      "localizations" : [
+        {
+          "description" : "Kit and blank inventory tracker with cost-per-pen calculator",
+          "displayName" : "Batch Nib - Pen Making Log Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "penmakinglog_pro",
+      "referenceName" : "Batch Nib - Pen Making Log Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
