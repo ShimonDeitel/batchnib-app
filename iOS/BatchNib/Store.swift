@@ -34,7 +34,7 @@ final class Store: ObservableObject {
         isPro || entries.count < Store.freeLimit
     }
 
-    func add(blank: String, kit: String, finish: String, notes: String) {
+    func add(name: String, blank: String, kit: String, finish: String, notes: String) {
         guard canAddMore else { return }
         let entry = PenEntry(name: name, blank: blank, kit: kit, finish: finish, notes: notes)
         entries.insert(entry, at: 0)
